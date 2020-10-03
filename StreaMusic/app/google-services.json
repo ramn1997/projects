@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "342626268831",
+    "firebase_url": "https://streamusic-adbc5.firebaseio.com",
+    "project_id": "streamusic-adbc5",
+    "storage_bucket": "streamusic-adbc5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:342626268831:android:ef76d15d96f37df9",
+        "android_client_info": {
+          "package_name": "com.example.dell.rhythmmusic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "342626268831-4mk9j29nbs0a0b8qtljfdr2k4vgn9h89.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_qNfpDkVmqTMuG-2C3uDaFdJ_LI9vON8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

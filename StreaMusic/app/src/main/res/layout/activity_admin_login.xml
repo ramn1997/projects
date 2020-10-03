@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#000"
+    tools:context=".AdminLogin">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp">
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:id="@+id/imageviewnew"
+                    android:layout_marginTop="30dp"
+                    android:src="@drawable/logo"/>
+
+        </LinearLayout>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            app:cardBackgroundColor="#ffff"
+            android:layout_gravity="center"
+            app:contentPadding="5dp"
+            app:cardElevation="2dp">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Email"
+                    android:textColor="@color/black"
+                    android:inputType="textEmailAddress"
+                    android:drawableLeft="@drawable/email"
+                    android:id="@+id/alemail"
+                    android:background="#ffff"
+                    />
+        </android.support.v7.widget.CardView>
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="6dp"
+            android:layout_gravity="center"
+            android:paddingTop="10dp" >
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="10dp"
+                    app:cardBackgroundColor="#fff"
+                    app:contentPadding="5dp"
+                    app:cardElevation="2dp">
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Password"
+                            android:inputType="textPassword"
+                            android:textColor="@color/black"
+                            android:drawableLeft="@drawable/password"
+                            android:id="@+id/alpass"
+                            android:background="#ffff"
+                            />
+                </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingTop="8dp">
+
+                <CheckBox
+                    android:id="@+id/a_s_h_pass"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="28dp"
+                    android:layout_weight="1"
+                    android:text="@string/show_pwd"
+                    android:textColor="#fff"
+                    android:textSize="14dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="100dp"
+                    android:id="@+id/albtn"
+                    android:clickable="true"
+                    android:layout_marginTop="15dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    app:cardBackgroundColor="#457"
+                    app:cardCornerRadius="6dp"
+                    app:cardElevation="2dp"
+                    app:contentPadding="5dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:fontFamily="serif-monospace"
+                            android:hint="LOGIN"
+                            android:textColor="#fff"
+                            android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+        </RelativeLayout>
+
+
+
+</LinearLayout>
