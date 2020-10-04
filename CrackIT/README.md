@@ -1,4 +1,4 @@
-# crack-a-lackin
+# CrackIT
 A plain hashed password cracker using brute force or dictionary attack.
 
 (for the hypothetical case that you, somehow, got an entire log of user accounts in your hands and you want to extract the passwords of it. you edgy haxxer. shame on you. i'm calling the local authorities.)
